@@ -23,7 +23,7 @@ class FileUploadWidgetState extends State<FileUploadWidget> {
   bool isUploading = false; // To track if the file is currently uploading
 
   String url =
-      "https://hr.computerengine.net/EmpMobile/Jobs/SmartUpload/uploadexmple.asp";
+      "###URL";
 
   // Method to pick file
   Future<void> pickFile() async {
